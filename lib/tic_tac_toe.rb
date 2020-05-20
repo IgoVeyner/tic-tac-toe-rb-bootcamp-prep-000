@@ -107,5 +107,6 @@ def play(board)
     game_over = over?(board)
   end
   
- 
+  if won?(board) == true
+    puts "Congrats #{winner(board)}!"
 end
