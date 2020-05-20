@@ -109,6 +109,6 @@ def play(board)
   
   if won?(board) != nil
     winner_position = winner(board)
-    puts "Congratulations #{winner_position}!"
+    puts "Congratulations #{winner(board)}!"
   end
 end
