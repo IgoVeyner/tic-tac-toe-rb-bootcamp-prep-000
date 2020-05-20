@@ -102,7 +102,7 @@ end
 
 def play(board)
   game_over = over?(board)
-  while game_over == falsehttps://learn.co/tracks/bootcamp-prep/ruby-fundamentals/tic-tac-toe/tictactoe-rb#
+  while game_over == false
     turn(board)
     game_over = over?(board)
   end
